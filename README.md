@@ -1,8 +1,7 @@
 # slowLoris
-DDoS tool
-Breakdown of the code :
+# DoS tool
 
-
+# Breakdown of the code :
 
 1.Importing necessary modules: The script begins by importing the necessary Python modules - socket for network connections, random for generating random numbers, time for handling time-related tasks, and sys for accessing command-line arguments.
 
@@ -20,7 +19,7 @@ Breakdown of the code :
 
 8.Main function: If the script is run as a standalone program (i.e., not imported as a module), it checks if the correct number of command-line arguments has been provided. If not, it prints a usage message and exits. If the correct number of arguments has been provided, it calls the slowloris function with the IP address provided as a command-line argument
 
-#Core Concept: 
+# Core Concept: 
 The Slowloris attack works by opening many connections to the target web server and keeping them open for as long as possible. It does this by continually sending partial HTTP requests, none of which are ever completed. This gradually consumes the server’s connection resources, eventually leading to denial of service as legitimate requests cannot be handled. 
 
-#Please note that such attacks are illegal and unethical, and this explanation is provided for educational purposes only. It’s important to use such knowledge responsibly.
+# Please note that such attacks are illegal and unethical, and this explanation is provided for educational purposes only. It’s important to use such knowledge responsibly.
